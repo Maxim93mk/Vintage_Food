@@ -17,7 +17,6 @@ body{
 }
 .page_header{
     width: auto;
-    height: 900px;
     background-image: linear-gradient(#EDA418 50%, #FFFFFF);
 }
 .navigation{
@@ -101,7 +100,7 @@ body{
 .page_main{
     text-align: center;
     width: auto;
-    height: 900px;
+    
     display: block;
 }
 .catalog{
@@ -132,4 +131,42 @@ body{
     font-size: 35px;
     line-height: 43px;
     font-weight: 500;
+}
+.page_footer{
+    width: auto;
+    background-image: linear-gradient(#FFFFFF 5%, #EDA418);
+}
+.footer_link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 101px;
+    justify-content: center;
+    list-style: none;
+    padding-top: 157px;
+}
+.footer_link_item{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+}
+.footer_text{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+.footer_text_item{
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.footer_contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 6px;
 }
