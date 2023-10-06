@@ -17,6 +17,7 @@ body{
 }
 .page_header{
     width: auto;
+    height: 900px;
     background-image: linear-gradient(#EDA418 50%, #FFFFFF);
 }
 .navigation{
@@ -29,21 +30,25 @@ body{
 .logo{
     display: block;
     margin-top: 8px;
+    padding-right: 70px;
+    padding-left: 130px;
+
 }
 .navigation_list{
     display: flex;
     flex-wrap: wrap;
-    gap: 66px;
+    gap: 80px;
     margin: auto 0;
     padding: 0;
-    margin-left: 148px;
-    margin-right: 49px;
+    margin-right: 130px;
     list-style: none;
+    
 }
 .link_navigation{
     display: block;
     color:#000000;
     text-decoration: none;
+    padding-right: 30px;
     font-weight: 500;
     font-size: 25px;
     line-height: 30px;
@@ -58,7 +63,38 @@ body{
 }
 .header_div{
     display: flex;
+    margin-top: 40px;
     margin-left: 130px;
-    margin-top: 367px;
     justify-content: center;
+    
+}
+.header_div_list{
+    display: block;
+    padding:0;
+    list-style: none;
+    padding-top: 173px;
+    padding-right: 130px;
+}
+.header_div_text{
+   padding-bottom: 50px;
+   font-weight: 800;
+   line-height: 39px;
+   font-size: 32px;
+}
+.header_div_text_d{
+    padding-bottom: 50px;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 19px;
+}
+.header_div_button{
+    width: 142px;
+    height: 60px;
+    border-radius: 50px;
+    background-color:#E52626;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 24px;
 }
