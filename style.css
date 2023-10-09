@@ -97,7 +97,22 @@ body{
     line-height: 29px;
     font-size: 24px;
 }
-.page_main{
+.header_div_button:active{
+    background-color:#FFFFFF;
+    color: #E52626;
+    font-weight: 400; 
+    line-height: 29px;
+    font-size: 24px;
+}
+.header_div_button:hover, .logo:hover, .navigation_button:hover, .footer_img_tg:hover, .footer_img_vk:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+}
+.main_item:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+}
+.page_main{ 
     text-align: center;
     width: 100%;   
     display: block;
@@ -112,7 +127,9 @@ body{
     font-size: 45px;
     line-height: 55px;
     color: #000000;
-    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .main_list{
     width: 1600px;
