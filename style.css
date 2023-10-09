@@ -1,22 +1,24 @@
 *{
     padding: 0;
     margin: 0;
+    left: 0;
+    top: 0;
 }
 html{
     box-sizing: border-box;
 }
 body{
     margin: 0 auto;
-    height: 100%;
+    width: 100%;
     flex-direction: column;
     color:#000000;
     font-weight: 500;
-    font-family: 'Montserrat';
+    font-family: Montserrat;
     font-size: 25px;
     line-height: 35px;
 }
 .page_header{
-    width: auto;
+    width: 100%;
     background-image: linear-gradient(#EDA418 50%, #FFFFFF);
 }
 .navigation{
@@ -29,31 +31,31 @@ body{
 .logo{
     display: block;
     margin-top: 8px;
-    padding-right: 70px;
-    padding-left: 130px;
-
+    padding-right: 50px;
 }
 .navigation_list{
     display: flex;
     flex-wrap: wrap;
     gap: 80px;
-    margin: auto 0;
-    padding: 0;
     margin-right: 130px;
     list-style: none;
-    
+    margin: auto 0;
 }
 .link_navigation{
     display: block;
     color:#000000;
     text-decoration: none;
-    padding-right: 30px;
+    margin-right: 50px;
     font-weight: 500;
     font-size: 25px;
     line-height: 30px;
+
+}
+.link_navigation:hover, .main_item_link:hover, .footer_link_item:hover{
+    font-weight: 700;
 }
 .navigation_button{
-    display: inline-block;
+    display: block;
     border-radius: 100%;
     width: 70px;
     height: 70px;
@@ -65,11 +67,9 @@ body{
     margin-top: 40px;
     margin-left: 130px;
     justify-content: center;
-    
 }
 .header_div_list{
     display: block;
-    padding:0;
     list-style: none;
     padding-top: 173px;
     padding-right: 130px;
@@ -99,8 +99,7 @@ body{
 }
 .page_main{
     text-align: center;
-    width: auto;
-    
+    width: 100%;   
     display: block;
 }
 .catalog{
@@ -110,14 +109,13 @@ body{
     color: #000000;
 }
 .main_title{
-    margin: 0;
-    padding: 0;
     font-size: 45px;
     line-height: 55px;
     color: #000000;
+    
 }
 .main_list{
-    width: auto;
+    width: 1600px;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -133,7 +131,7 @@ body{
     font-weight: 500;
 }
 .page_footer{
-    width: auto;
+    width: 100%;
     background-image: linear-gradient(#FFFFFF 5%, #EDA418);
 }
 .footer_link{
@@ -155,13 +153,14 @@ body{
     justify-content: center;
     text-align: center;
     margin-top: 45px;
-    margin-bottom: 65px;
+    list-style: none;
 }
 .footer_text_item{
-    padding-bottom: 30px;
+    padding-bottom: 22px;
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
+    
 }
 .footer_contacts{
     display: flex;
@@ -169,4 +168,10 @@ body{
     justify-content: center;
     list-style: none;
     gap: 6px;
+}
+.footer_img_tg{
+    margin-top: 17px;
+}
+.footer_img_vk{
+    margin-top: 22px;
 }
